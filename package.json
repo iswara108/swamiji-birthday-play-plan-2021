@@ -1,0 +1,13 @@
+{
+  "name": "swamiji-birthday-play-plan-2021",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "iswara.chaitanya <iswara@sivananda.org>",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "start": "yarn live-server"
+  }
+}
