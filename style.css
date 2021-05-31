@@ -35,6 +35,10 @@ main {
   width: clamp(2rem, 90vw, 60rem);
 }
 
+h2 {
+  margin-top: 3rem;
+}
+
 .scenes {
   display: grid;
   grid-template-columns: repeat(4, minmax(min-content, max-content));
@@ -62,4 +66,12 @@ main {
   .scenes {
     grid-template-columns: repeat(3, minmax(min-content, max-content));
   }
+}
+
+.scene {
+  background-color: #eee;
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+  min-height: 2rem;
+  padding: 0.1rem 1rem;
 }
