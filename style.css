@@ -37,7 +37,7 @@ main {
 
 .scenes {
   display: grid;
-  grid-template-columns: repeat(3, minmax(min-content, max-content));
+  grid-template-columns: repeat(4, minmax(min-content, max-content));
   grid-column-gap: 1px;
   grid-row-gap: 1px;
   border: 0.3px #777 solid;
@@ -48,4 +48,18 @@ main {
 .scenes div {
   background-color: #fff;
   padding: 0.4rem 0.7rem;
+}
+
+.scenes__sequence {
+  text-align: center;
+}
+
+@media screen and (max-width: 24rem) {
+  .scenes__sequence {
+    display: none;
+  }
+
+  .scenes {
+    grid-template-columns: repeat(3, minmax(min-content, max-content));
+  }
 }
