@@ -62,7 +62,6 @@ h2 {
   .scenes__sequence {
     display: none;
   }
-
   .scenes {
     grid-template-columns: repeat(3, minmax(min-content, max-content));
   }
