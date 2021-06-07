@@ -81,3 +81,17 @@ h2 {
   grid-gap: 0.5rem;
   align-items: start;
 }
+
+.scene-script {
+  display: grid;
+  grid-template-columns: max-content minmax(min-content, max-content);
+  gap: 0.4rem;
+}
+
+.scene-script .actor {
+  font-weight: 700;
+}
+
+.scene-script .actor::after {
+  content: ':';
+}
