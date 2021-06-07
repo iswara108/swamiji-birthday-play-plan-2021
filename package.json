@@ -9,5 +9,8 @@
   },
   "scripts": {
     "start": "yarn live-server"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.1"
   }
 }
